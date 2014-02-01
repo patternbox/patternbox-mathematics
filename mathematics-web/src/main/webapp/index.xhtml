@@ -1,0 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<title>#{msgs.title}</title>
+</h:head>
+<h:body>
+    <h1>#{msgs.title}</h1>
+    <h:link value="#{fibo.title}" outcome="fibonacci" /><br/>
+    <h:link value="#{eratos.title}" outcome="eratosthenes" /><br/>
+    <p/>
+    <!--Predefined Objects-->
+    #{header['User-Agent']}
+</h:body>
+</html>
+
+
+
+
